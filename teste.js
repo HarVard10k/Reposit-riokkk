@@ -1,1 +1,1 @@
-calma ae garaiokkk
+calma ae man pai ta arrumanokk
