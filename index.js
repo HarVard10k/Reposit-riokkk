@@ -23,9 +23,9 @@ client.on('message', message => {
 
 client.on("guildMemberAdd", async (member) => { 
 
-  let guild = await client.guilds.cache.get("731657442521382922");
-  let channel = await client.channels.cache.get("731657443356180509");
-  let emoji = await member.guild.emojis.cache.find(emoji => emoji.name === "test");
+  let guild = await client.guilds.cache.get("ID do servidor");
+  let channel = await client.channels.cache.get("ID do canal");
+  let emoji = await member.guild.emojis.cache.find(emoji => emoji.name === "");
   if (guild != member.guild) {
     return console.log("Sem boas-vindas pra você! Sai daqui saco pela.");
    } else {
@@ -43,7 +43,7 @@ client.on("guildMemberAdd", async (member) => {
   }
 });
 client.once('ready', () => {
-    console.log('PAI ta on!');
+    console.log('Ready!');
 
 
 });
@@ -72,4 +72,4 @@ client.user
 
 });
 
-client.login('NzE5NzE1OTkyNDg1MzYzNzIz.Xt7dwA.dzVPBFI3vmQBKvUYr0spUkoeOak');
+client.login('TOKEN do seu BOT');
