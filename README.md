@@ -1,1 +1,1 @@
-# Reposit-riokkk
+Projetinho básico, pois não manjo em JS. 
